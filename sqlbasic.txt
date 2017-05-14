@@ -1,0 +1,44 @@
+CRUD
+C=>create, R=>read, U=>update, D=>delete
+
+
+SQL SELECT(read)
+SELECT * FROM table
+WHERE column1='some_text'
+ORDER BY column1, column2 ASC;
+//* means read everything
+//column contain some string text
+//ASC=>assending similarly DESCb=>desending
+//table is table name
+
+
+
+SQL INSERT(Create)
+INSERT INTO table(column1, column2, column3)
+VALUE(val1,val2,val2);
+//val1,val2,val3 are the arguments to be updated in the table
+//column1,2,3 are the names of the coulmns
+
+SQL UPDATE(update)
+UPDATE table
+SET column1="some_text"
+WHERE id=1;
+//id indetifies the record
+
+
+
+SQL DELETE
+DELETE FROM table
+WHERe id=1;
+
+
+mysql_connect
+mysql_select_db
+mysql_query
+mysql_error
+mysql_close
+mysql_fetch_array
+mysql_num_rows
+mysql_affected_rows
+mysql_real_escape_string
+mysql_insert_id
